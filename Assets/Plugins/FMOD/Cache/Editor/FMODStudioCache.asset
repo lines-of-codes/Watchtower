@@ -1,0 +1,433 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8744909053601012234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PeacefulAmbient
+  m_EditorClassIdentifier: 
+  Path: event:/PeacefulAmbient
+  Guid:
+    Data1: 705076232
+    Data2: 1152204124
+    Data3: -1567344210
+    Data4: 1625902069
+  Banks:
+  - {fileID: 2094633302806321943}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 244134
+--- !u!114 &-5729176221941318452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FirstSpellCutscene
+  m_EditorClassIdentifier: 
+  Path: event:/FirstSpellCutscene
+  Guid:
+    Data1: -1163612040
+    Data2: 1105082517
+    Data3: -1071612760
+    Data4: -508527124
+  Banks:
+  - {fileID: -1618862353297492351}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4933746537997229399}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4113302267338344108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Flashlight/FlashlightState
+  m_EditorClassIdentifier: 
+  Name: FlashlightState
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2875966924
+    data2: 896142342
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - On
+  - Off
+  Exists: 1
+--- !u!114 &-3281703637035654296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WelcomeCutscene/Sentence
+  m_EditorClassIdentifier: 
+  Name: Sentence
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4144701331
+    data2: 635304552
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3131289862543817533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FirstGhostCutscene
+  m_EditorClassIdentifier: 
+  Path: event:/FirstGhostCutscene
+  Guid:
+    Data1: -886931467
+    Data2: 1266701352
+    Data3: -289903485
+    Data4: -1198079540
+  Banks:
+  - {fileID: -1618862353297492351}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 96904057549556702}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1843622299199945172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: "../OneDrive/\u0E40\u0E2D\u0E01\u0E2A\u0E32\u0E23/FMOD Studio/Watchtower/Build/Desktop/Master.strings.bank"
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638137433996836932
+  FileSizes:
+  - Name: Desktop
+    Value: 1340
+  Exists: 1
+--- !u!114 &-1618862353297492351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/ForestCutscenes.bank
+  m_EditorClassIdentifier: 
+  Path: "../OneDrive/\u0E40\u0E2D\u0E01\u0E2A\u0E32\u0E23/FMOD Studio/Watchtower/Build/Desktop/ForestCutscenes.bank"
+  Name: ForestCutscenes
+  StudioPath: bank:/ForestCutscenes
+  lastModified: 638137433994070843
+  FileSizes:
+  - Name: Desktop
+    Value: 823776
+  Exists: 1
+--- !u!114 &-1546117276231908147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/WelcomeCutscene
+  m_EditorClassIdentifier: 
+  Path: event:/WelcomeCutscene
+  Guid:
+    Data1: -1734410278
+    Data2: 1164808276
+    Data3: 2144322201
+    Data4: -18951594
+  Banks:
+  - {fileID: -1618862353297492351}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -3281703637035654296}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -1843622299199945172}
+  - {fileID: 2094633302806321943}
+  - {fileID: -1618862353297492351}
+  - {fileID: 4511516980767022394}
+  EditorEvents:
+  - {fileID: -8744909053601012234}
+  - {fileID: 7195437894662036677}
+  - {fileID: 2075867575138336011}
+  - {fileID: 7766528641819507372}
+  - {fileID: -1546117276231908147}
+  - {fileID: -5729176221941318452}
+  - {fileID: -3131289862543817533}
+  - {fileID: 4489168676849767883}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 2094633302806321943}
+  StringsBanks:
+  - {fileID: -1843622299199945172}
+  cacheTime: 638137434002423918
+  cacheVersion: 131601
+--- !u!114 &96904057549556702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/FirstGhostCutscene/Sentence
+  m_EditorClassIdentifier: 
+  Name: Sentence
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4144701331
+    data2: 635304552
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &2075867575138336011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UISound/YesUISound
+  m_EditorClassIdentifier: 
+  Path: event:/UISound/YesUISound
+  Guid:
+    Data1: -853161847
+    Data2: 1294359327
+    Data3: 294419113
+    Data4: 136600248
+  Banks:
+  - {fileID: 4511516980767022394}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2094633302806321943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: "../OneDrive/\u0E40\u0E2D\u0E01\u0E2A\u0E32\u0E23/FMOD Studio/Watchtower/Build/Desktop/Master.bank"
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638137433996755928
+  FileSizes:
+  - Name: Desktop
+    Value: 5649056
+  Exists: 1
+--- !u!114 &4489168676849767883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Flashlight
+  m_EditorClassIdentifier: 
+  Path: event:/Flashlight
+  Guid:
+    Data1: -515962383
+    Data2: 1307159994
+    Data3: 2090331014
+    Data4: -413597357
+  Banks:
+  - {fileID: 2094633302806321943}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -4113302267338344108}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4511516980767022394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FuturisticSFX.bank
+  m_EditorClassIdentifier: 
+  Path: "../OneDrive/\u0E40\u0E2D\u0E01\u0E2A\u0E32\u0E23/FMOD Studio/Watchtower/Build/Desktop/FuturisticSFX.bank"
+  Name: FuturisticSFX
+  StudioPath: bank:/FuturisticSFX
+  lastModified: 638137434002423918
+  FileSizes:
+  - Name: Desktop
+    Value: 191136
+  Exists: 1
+--- !u!114 &4933746537997229399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/FirstSpellCutscene/Sentence
+  m_EditorClassIdentifier: 
+  Name: Sentence
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4144701331
+    data2: 635304552
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &7195437894662036677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UISound/UISound
+  m_EditorClassIdentifier: 
+  Path: event:/UISound/UISound
+  Guid:
+    Data1: 582302986
+    Data2: 1273051688
+    Data3: -863267173
+    Data4: -321714881
+  Banks:
+  - {fileID: 4511516980767022394}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7766528641819507372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UISound/NoUISound
+  m_EditorClassIdentifier: 
+  Path: event:/UISound/NoUISound
+  Guid:
+    Data1: 442359001
+    Data2: 1087101111
+    Data3: 866185900
+    Data4: 460605437
+  Banks:
+  - {fileID: 4511516980767022394}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
